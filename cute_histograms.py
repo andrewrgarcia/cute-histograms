@@ -30,7 +30,7 @@ ap.add_argument("-p", "--file_path", default = 'my_spreadsheets/',
                 help="path where all your csv files may be. \
                 Please update the default with your common folder.")
 ap.add_argument("-f", "--filename", default = 'untitled-1.csv',
-                help = "enter the name of your file")
+                help = "enter the name of your file with the .csv extension at the end (e.g. spreadsheet.csv)")
 
 args = vars(ap.parse_args())
 
