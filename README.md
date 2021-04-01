@@ -5,7 +5,7 @@ Quick installation and use
 ----------------------------
 1. Copy and paste the following line on the folder you want to keep cute-histograms:
 
-git clone https://github.com/andrewrgarcia/cute-histograms.git
+   git clone https://github.com/andrewrgarcia/cute-histograms.git
 
 2. *(A new folder named cute-histograms will be created inside that folder)
 
@@ -13,4 +13,4 @@ git clone https://github.com/andrewrgarcia/cute-histograms.git
 
 4. On a terminal, change directory to this new "cute-histograms folder". Then type:
 
-python cute-histograms.py -p "my_spreadsheets/" -f ["name of your spreadsheet file with .csv extension"]
+   python cute-histograms.py -p "my_spreadsheets/" -f ["name of your spreadsheet file with .csv extension"]
